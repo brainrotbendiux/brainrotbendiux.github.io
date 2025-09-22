@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Steal Brain Rot Completo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="monedas">10,000</div>
+<img id="musica-icono" src="musica_off.png" alt="Música">
+<div id="personaje-container">
+  <div id="personaje-frame">
+    <img id="personaje-img" src="personaje1.png" alt="">
+  </div>
+  <div id="valor-personaje">Valor: 0</div>
+  <button class="boton-comprar" id="comprar-btn">Comprar</button>
+  <div id="produccion">+0/seg</div>
+</div>
+<div id="mensaje"></div>
+
+<button id="base-btn">Mi Base</button>
+<div id="panel-base">
+  <h2>Mi Base</h2>
+  <button class="boton-bloqueo" id="bloqueo-btn">Abrir/Cerrar Base</button>
+  <div id="contador-bloqueo"></div>
+  <div id="lista-personajes"></div>
+  <button id="comprar-plazas">Comprar 10 plazas (500,000 monedas)</button>
+</div>
+
+<div class="bases-exteriores">
+  <button data-index="0">Base 1</button>
+  <button data-index="1">Base 2</button>
+  <button data-index="2">Base 3</button>
+</div>
+<div id="panel-externa"><h3>Base Externa</h3><div id="lista-externa"></div></div>
+<div id="x-cerrar-externa">X</div>
+<img id="personaje-robo" src="" alt="">
+<button id="detener-robo">Detener Robo</button>
+<div id="x-robo">X</div>
+
+<audio id="musica" src="musicabrainrots.mp3" loop></audio>
+<audio id="sonido-compra" src="compra.mp3"></audio>
+<audio id="sonido-comprafallida" src="comprafallida.mp3"></audio>
+<audio id="sonido-clic" src="clic.mp3"></audio>
+<audio id="sonido-cerrada" src="cerrada.mp3"></audio>
+<audio id="sonido-robo" src="robodepersonaje.mp3"></audio>
+<audio id="sonido-alerta" src="alerta.mp3"></audio>
+
+<button id="exclusividades-btn">Exclusividades</button>
+<div id="panel-exclusivas"><h3>Exclusividades</h3><div id="lista-exclusivas"></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
